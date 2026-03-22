@@ -151,37 +151,10 @@ function checkWin() {
     // Mostrar anuncio en pantalla local
     announceWinner(playerName);
     
-    // Enviar correo
-    sendEmailToCouple(playerName);
-    
     // Action when they click WIN
-    alert(currentLang === 'es' ? "¡Felicidades! Eres el ganador. Los novios han sido notificados." : "Congratulations! You won. The couple has been notified.");
+    alert(currentLang === 'es' ? "¡Felicidades! Eres el ganador. Muestra tu pantalla a los novios." : "Congratulations! You won. Show your screen to the couple.");
 }
 
-function sendEmailToCouple(winnerName) {
-    // Para que esto envíe un correo real, necesitas usar un servicio como Formspree.io
-    // Crea una cuenta gratis en formspree.io, crea un formulario y pon aquí tu URL:
-    const emailEndpoint = "https://formspree.io/f/TU_ID_AQUI"; 
-    
-    if(emailEndpoint.includes("TU_ID_AQUI")) {
-        console.log("MOCK: Email enviado a los novios -> Ganador: " + winnerName);
-        console.log("Para enviar correo real, por favor cambia TU_ID_AQUI por tu ID de Formspree in script.js");
-        return; // Detenemos la función para que no de error
-    }
-
-    fetch(emailEndpoint, {
-        method: 'POST',
-        headers: {
-            'Accept': 'application/json',
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-            Asunto: "Bingo Boda: ¡Tenemos un Ganador!",
-            Mensaje: `El invitado ${winnerName} acaba de completar su tablero de Bingo.`,
-            Ganador: winnerName
-        })
-    }).catch(e => console.error("Error enviando email: ", e));
-}
 
 function announceWinner(name) {
     const banner = document.getElementById('winner-banner');
