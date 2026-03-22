@@ -164,7 +164,7 @@ function announceWinner(name) {
     
     title.innerText = currentLang === 'es' ? '¡Tenemos un Ganador!' : 'We have a Winner!';
     text.innerText = currentLang === 'es' 
-        ? `¡Felicidades a ${name} por completar su cartón primero!` 
+        ? `¡Felicidades a ${name} por completar su tablero primero!` 
         : `Congratulations to ${name} for completing the board first!`;
 }
 
