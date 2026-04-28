@@ -9,12 +9,12 @@ const translations = {
         qrInstruction: "Muestra este código a otros invitados para que puedan unirse al juego.",
         freeSpace: "Laura & Marcus\n09.05.2026",
         phrases: [
-            "Alguno de los novios llora", "La novia lanza el ramo", "El novio lanza el azahar", "Alguien atrapa el ramo",
-            "Alguien atrapa el azahar", "La novia se quita el velo", "Los esposos se ríen", "Los esposos se dan un beso",
+            "Alguno de los novios llora", "La novia lanza el ramo", "Los esposos bailan su vals", "Alguien atrapa el ramo",
+            "Se reparten los recuerdos", "La novia se quita el velo", "Los esposos se ríen", "Los esposos se dan un beso",
             "Parten el pastel", "Alguien dice ¡Que vivan los novios!", "Los invitados aplauden", "La ceremonia religiosa ha terminado",
             "Empezó el banquete", "Los esposos se toman de las manos", "Alguien felicita a los novios", "Alguien empieza a bailar",
             "Alguien hace un brindis", "Suena un violín en la celebración", "Los novios hablan en inglés", "El fotógrafo toma foto a los novios",
-            "Empieza la música del DJ", "Se abre la mesa de dulces", "Se repartieron los recuerdos", "Se tomó una foto familiar"
+            "Empieza la música del DJ", "Se abre la mesa de dulces", "Empezó la tornafiesta o tornaboda", "Se tomó una foto familiar"
         ]
     },
     en: {
@@ -26,12 +26,12 @@ const translations = {
         qrInstruction: "Show this code to other guests so they can join the game.",
         freeSpace: "Laura & Marcus\n09.05.2026",
         phrases: [
-            "One of the newlyweds cries", "The bride throws the bouquet", "The groom throws the boutonnière", "Someone catches the bouquet",
-            "Someone catches the boutonnière", "The bride takes off her veil", "The spouses laugh", "The spouses kiss",
+            "One of the newlyweds cries", "The bride throws the bouquet", "The spouses dance their waltz", "Someone catches the bouquet",
+            "Wedding favors are distributed", "The bride takes off her veil", "The spouses laugh", "The spouses kiss",
             "They cut the cake", "Someone says 'Long live the newlyweds!'", "Guests clap", "The religious ceremony has ended",
             "The banquet starts", "The spouses hold hands", "Someone congratulates the couple", "Someone starts dancing",
             "Someone makes a toast", "A violin plays at the celebration", "The couple speaks in English", "Photographer takes a photo of the couple",
-            "DJ music starts", "Dessert table opens", "Favors are handed out", "A family photo is taken"
+            "DJ music starts", "Dessert table opens", "The after-party begins", "A family photo is taken"
         ]
     }
 };
